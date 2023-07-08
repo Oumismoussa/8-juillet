@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Accueil {% endblock %}
+
+{% block body %}
+   
+<img class="logo" src="{{ asset('/assets/css/Horizon_Pictogramme_VERT.png') }}" alt="Mon Image">
+
+<h1> Bon retour : </h1>
+
+
+<img class="mathieu" src="{{ asset('/assets/css/mathieu.jpg') }}" alt="Mon Image"> 
+
+<a href="{{path('app_home_page')}}"> <h1>{{lastname}}</h1> </a>
+
+{% endblock %} 

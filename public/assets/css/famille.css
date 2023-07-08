@@ -1,0 +1,127 @@
+.instruments li{
+
+background-size: 100% 100%;
+background-repeat: no-repeat;
+
+}
+
+body{
+    list-style-type: none;
+}
+
+.hémo h2{
+position: relative;
+top: 100px;
+}
+
+.hémo p{
+ position: relative;
+top: 75px;
+}
+
+.hémo{
+  
+ top: 238px;
+left: 28px;
+width: 357px;
+height: 156px;
+background: #000000 0% 0% no-repeat padding-box;
+border-radius: 12px;
+color: white;
+}
+
+.ciseaux{
+top: 410px;
+left: 29px;
+width: 172px;
+height: 156px;
+background: #000000 0% 0% no-repeat padding-box;
+border-radius: 12px;
+color: white;
+}
+
+.ciseaux h2{
+    position: relative;
+    top: 100px;
+ }
+    
+.ciseaux p{
+
+ position: relative;
+top: 75px;
+ }
+
+.porteaiguilles{
+    position: relative;
+    bottom: 175px;
+    left: 200px;
+    width: 171px;
+    height: 156px;
+    background: #000000 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+
+    color: white;
+}
+
+.porteaiguilles h2{
+    position: relative;
+    top: 100px;
+    }
+    
+.porteaiguilles p{
+
+ position: relative;
+top: 75px;
+ }
+    
+ .dissequer{
+  position: relative;
+  bottom: 150px;
+   width: 357px;
+   height: 156px;
+   background: #000000 0% 0% no-repeat padding-box;
+   border-radius: 12px;
+   color: white;
+   }
+
+.prehension{
+  position: relative;
+    bottom: 150px;
+   width: 357px;
+   height: 156px;
+   background: #000000 0% 0% no-repeat padding-box;
+   border-radius: 12px;
+   color: white;
+   }
+   
+   .simples{
+    position: relative;
+    bottom: 150px;
+    left: 200px;
+    width: 171px;
+    height: 156px;
+    background: #000000 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+
+    color: white;
+}
+
+.doubles{
+    position: relative;
+    bottom: 320px;
+    width: 172px;
+    height: 156px;
+    background: #000000 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+    color: white;
+}
+
+.vasculaires{
+position: relative;
+bottom: 300px;
+   width: 357px;
+   height: 156px;
+   background: #000000 0% 0% no-repeat padding-box;
+   border-radius: 12px;
+   color: white;
+   }

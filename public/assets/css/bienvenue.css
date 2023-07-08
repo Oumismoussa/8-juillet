@@ -1,0 +1,40 @@
+body{
+
+background-color: #E4F4F0;
+
+}
+
+.blanc{
+    top: 314px;
+left: 58px;
+width: 299px;
+height: 269px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 30px;
+opacity: 1;
+}
+
+.bienvenue{
+    position: relative;
+    top: 40px;
+    left: 40px;
+  
+}
+
+h1{
+    color: black;
+    position: relative;
+    top: 40px;
+    left:100px;
+}
+
+a{
+    
+    text-decoration: none;
+}
+.logo{
+    position: relative;
+    top: 40px;
+    left: 40px;
+    width: 200px;
+}

@@ -1,0 +1,69 @@
+body{
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    width: 200px;
+    height: 300px;
+    background-size: 100% auto;
+    color : white
+}
+
+
+header h4{
+ position: relative;
+top : 30%
+}
+
+
+
+.hautfamille{
+    display: flex;
+    align-items: baseline;
+}
+
+.familles{
+    display: flex;
+    height: 200px;
+}
+
+.familles li{
+    flex-direction: row;
+    position: relative;
+    top: 100px;
+    right: 200px;
+}
+
+.hemoimg {
+    width: 100px;
+}
+
+.ciseauximg {
+    width: 100px;
+}
+
+.hautarticles{
+    display: flex;
+    align-items: baseline;
+}
+
+.voir{
+    position: relative;
+    left: 40px;
+}
+
+.articleimg {
+    width: 200px;
+    border-radius: 20px;
+}
+
+.hautcreateur{
+    display: flex;
+    align-items: baseline;
+}
+
+.createurimg {
+    width: 200px;
+    border-radius: 20px;
+}

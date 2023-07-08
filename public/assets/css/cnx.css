@@ -1,0 +1,84 @@
+.logo{
+    width: 200px;
+}
+
+.mb-3{
+    width: 100px;
+}
+
+h1{
+top: 328px;
+left: 104px;
+width: 206px;
+height: 39px;
+text-align: center;
+font: normal normal normal 13px/20px Poppins;
+letter-spacing: 0px;
+color: #9F9F9F;
+opacity: 1;
+}
+
+input{
+    width: 200px;
+    justify-content: space-around;
+    margin-top: 25px;
+    border: none;
+    border-bottom: solid 1px;
+}
+
+.bouton3{
+    text-decoration: none;
+    color:#4BB49A;
+}
+
+button{
+    /* Layout Properties */
+top: 515px;
+left: 42px;
+width: 200px;
+height: 50px;
+/* UI Properties */
+background: #4BB49A 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border-radius: 23px;
+opacity: 1;
+    border: none;
+    border-radius: 25px;
+    margin-top: 25px;
+    color: white;
+    background-color: #4BB49A;
+}
+
+.champs{
+    display: flex;
+    flex-direction: column;
+
+}
+
+h4{
+ top: 644px;
+
+width: 250px;
+height: 17px;
+text-align: right;
+letter-spacing: 0px;
+color: #343434;
+opacity: 1;
+}
+
+.creer{
+    top: 500px;
+    left: 350px;
+    width: 200px;
+    height: 17px;
+    text-align: left;
+    text-decoration: underline;
+    letter-spacing: 0px;
+    color: #4BB49A;
+    opacity: 1;
+}
+
+.bas{
+    display: flex;
+
+}

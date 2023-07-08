@@ -1,0 +1,27 @@
+
+{% block title %} search {% endblock %}
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+   <link rel="stylesheet" href="{{asset('assets/css/famille.css') }}">
+
+    <title>Document</title>
+</head>
+
+
+{% block body %}
+
+<h1>  RESULTATS {{famille.name}} </h1>
+<div  class="instruments">
+{% for famille in famille %}
+ <li class="{{famille.classe}}" style="background-image: url({{asset('assets/css/6.png')}})">
+    <h2> {{famille.name}} </h2>
+<p> Fonctionnalités - Mors - Corrosion </p> </li>
+ {% endfor %}
+</div>
+
+
+
+
+{% endblock %}

@@ -1,0 +1,63 @@
+
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+   <link rel="stylesheet" href="{{asset('assets/css/homepage.css') }}">
+</head>
+
+
+{% block body %}
+<header  style="background-image: url({{asset('assets/css/pexels-carloscruz-artegrafia-11198240.jpg')}})">
+{# 
+ Page d'accueil où on retrouve toutes les catégories #}
+<h3> HOME </h3>
+
+
+<h4> Bonjour {{lastname}} </h4>
+</header>
+
+{{ form_start(form) }}
+    {{ form_row(form.recherche) }}
+{{ form_end(form) }}
+
+
+<div class="familles">
+<div class="hautfamille">
+<h4 classe="Familles"> Les familles d'instruments </h4>
+  <a class="voir" href="{{path('app_famille')}}"> Voir plus </a>
+</div>
+
+  
+    
+    <li class="hemo"> <img class="hemoimg" src="{{asset('assets/css/shot_20230315155830.jpg')}}" alt="">  </li>
+    <li class="ciseaux"> <img class="ciseauximg" src="{{asset('assets/css/1 (1).png')}}" alt="">  </li>
+
+</div> 
+
+
+<div class="articles">
+
+<div class="hautarticles"> 
+
+<h4 class="Articles"> Articles </h4>
+<a class="voir" href="{{path('app_famille')}}"> Voir plus </a>
+</div>
+<img class="articleimg" src="{{asset('assets/css/pexels-cottonbro-studio-7585320.jpg')}}" alt="">
+
+</div>
+
+
+
+<div class="créateur">
+
+<div class="hautcreateur"> 
+
+<h4 class="Createur"> Le créateur du jour </h4>
+<a class="voir" href="{{path('app_famille')}}"> Voir plus </a>
+
+</div>
+<img class="createurimg" src="{{asset('assets/css/Harvey_Williams_Cushing.jpg')}}" alt="">
+
+</div>
+{% endblock %}

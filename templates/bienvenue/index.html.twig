@@ -1,0 +1,23 @@
+
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ asset('assets/css/bienvenue.css') }}">
+    <title>Document</title>
+</head>
+
+{% block body %}
+
+
+
+<div class="blanc">
+
+<h1 class="bienvenue"> Bienvenue sur </h1>
+<img class="logo" src="/assets/css/Horizon_Pictogramme_VERT.png" alt="">
+
+<a href="{{path('app_home_page')}}"> <h1>{{lastname}}</h1> </a>
+
+</div>
+
+{% endblock %}

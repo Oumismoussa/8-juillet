@@ -1,0 +1,42 @@
+
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ asset('assets/css/famille.css') }}">
+    <title>Document</title>
+</head>
+
+{% block body %}
+
+<h1> LES FAMILLES D'INSTRUMENTS </h1>
+
+ {{ form_start(form)}}
+  <div class="form-row align-items-end">
+  <div class="col">
+  {{form_row(form.name)}}
+
+  </div>
+
+  <div class="col">
+  <div class="form-groupe">
+  <button type="submit" class="btn-succes"> rechercher </button>
+  </div>
+  </div>
+  </div>
+    
+ {{form_end(form)}}
+
+<div  class="instruments">
+{% for category in famille %}
+ <li class="{{category.classe}}" style="background-image: url({{asset('assets/css/6.png')}})">
+ <img  src="data:image/png;base64,{{ category.image }}" />
+<h2> {{category.name}} </h2>
+<p> Fonctionnalités - Mors - Corrosion </p> 
+</li>
+ {% endfor %}
+
+</div>
+
+
+{% endblock %}

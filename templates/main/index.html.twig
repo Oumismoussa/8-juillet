@@ -1,0 +1,52 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Accueil {% endblock %}
+
+{% block body %}
+   
+<img class="logo" src="{{ asset('/assets/css/Horizon_Pictogramme_VERT.png') }}" alt="Mon Image">
+
+<h1> Apprentissage des instruments de chirurgie. </h1>
+<div class="boutons"> 
+<button class="bouton1"> <a href="{{path('app_register')}}" class="bouton3"> CREER SON COMPTE </a> </button>
+<button class="bouton2"> <a href="{{path('app_login')}}" class="bouton4"> SE CONNECTER </a> </button>
+</div>
+
+{% endblock %} 
+{# 
+{% extends 'base.html.twig' %}
+
+{% block title %} Ajouter un users {% endblock %}
+
+{% block body %}
+
+<h1> Ajouter </h1>
+{% for message in app.flashes('success')%}
+<div class="flash-notice">
+{{message}}
+</div>
+{% endfor %}
+    {{ form_start(form) }}
+
+    <div class="forminput">
+    {{ form_label(form.email)}}
+    {{ form_widget(form.email)}}
+    </div>
+    <div class="forminput">
+      {{ form_label(form.roles)}}
+    {{ form_widget(form.roles)}}
+    </div>
+  
+ <div class="forminput">
+      {{ form_label(form.password)}}
+    {{ form_widget(form.password)}}
+    </div>
+  
+
+  <button type="submit" class="inscription">
+  inscription
+  </button>
+
+    {{ form_end(form) }}
+
+{% endblock %} #} 
